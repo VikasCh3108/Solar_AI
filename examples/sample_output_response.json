@@ -1,0 +1,38 @@
+{
+  "rooftop": {
+    "mask": "POLYGON((100,100),(400,100),(400,400),(100,400))",
+    "usable_area_m2": 42.3,
+    "summary": "Detected a flat usable rooftop area of approximately 42.3 square meters."
+  },
+  "rooftop_validation": {
+    "is_valid": true,
+    "validation_msg": "Valid rooftop result.",
+    "confidence": 0.95
+  },
+  "shading": {
+    "shaded_area_m2": 5.0,
+    "obstacles": ["vent pipe"]
+  },
+  "assessment": {
+    "usable_area_m2": 42.3,
+    "estimated_irradiation_kwh_per_m2_year": 1700,
+    "layout_options": [
+      {"panel_count": 20, "orientation": "south", "tilt": 20}
+    ]
+  },
+  "recommendation": {
+    "panel_type": "Monocrystalline 400W",
+    "num_panels": 20,
+    "layout": ["south", "tilt 20"],
+    "inverter": "5kW string inverter",
+    "mounting": "flush mount"
+  },
+  "roi": {
+    "cost_usd": 10000,
+    "estimated_annual_savings_usd": 1600,
+    "roi_percent": 16,
+    "payback_period_years": 6.25,
+    "incentives_usd": 2000
+  },
+  "report_path": "reports/analysis_2025-05-27.pdf"
+}

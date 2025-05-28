@@ -1,0 +1,5 @@
+{
+  "endpoint": "/analyze",
+  "method": "POST",
+  "file": "sample_input_image.png"
+}
